@@ -5,7 +5,7 @@ using UnityEngine;
 public class GravityForce : MonoBehaviour {
     public Rigidbody2D rigidBody;
     public string interactWith;
-    public float G = 0.5f;
+    public float G = 0.02f;
     private void FixedUpdate()
     {
         GameObject[] gos = GameObject.FindGameObjectsWithTag(interactWith);
